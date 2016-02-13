@@ -9,7 +9,7 @@
 	var HEIGHT,//canvas高
 	    WIDTH;//canvs 宽
 	
-	var SIZE = 32;//音乐片段数
+	var SIZE = 64;//音乐片段数
 	
 	var ARR = [];//该数组保存canvas中各图形的x,y坐标以及他们的颜色
 	ARR.dotMode = "random";
