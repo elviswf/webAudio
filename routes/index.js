@@ -7,7 +7,7 @@ router.get('/', function(req, res){
 		if(err){
 			console.log(err);
 		}else{
-			res.render('index', {title: 'passionate music', music: files});
+			res.render('index', {title: 'musicVisPlayer for sidi', music: files});
 		}
 	});
 });
